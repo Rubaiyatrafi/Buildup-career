@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header responsive">
       <div>
         <h1>
           <span className="text1">Buildup</span>
@@ -12,7 +12,7 @@ const Header = () => {
         </h1>
       </div>
       <div>
-        <nav>
+        <nav className="responsive">
           <NavLink to="/" activeClassName="active">
             Home
           </NavLink>

@@ -1,9 +1,14 @@
 import React from "react";
+import BodyFirst from "../BodyFirst/BodyFirst";
+import BodySecond from "../BodySecond/BodySecond";
+import BodyThird from "../BodyThird/BodyThird";
 
 const Body = () => {
   return (
     <div>
-      <h1>Body</h1>
+      <BodyFirst></BodyFirst>
+      <BodySecond></BodySecond>
+      <BodyThird></BodyThird>
     </div>
   );
 };

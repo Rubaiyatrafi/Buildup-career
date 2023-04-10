@@ -1,0 +1,34 @@
+{
+  "id": 12345,
+  "name": "John Smith",
+  "age": 35,
+  "email": "john.smith@example.com",
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "CA",
+    "zip": "12345"
+  },
+  "image": "https://example.com/images/john-smith.png",
+  "logo": "https://example.com/images/logo.png",
+  "job_description": "Software Engineer",
+  "job_responsibilities": [
+    "Develop and maintain software applications",
+    "Write clean, efficient, and well-documented code",
+    "Collaborate with cross-functional teams to identify and solve problems",
+    "Stay up-to-date with emerging trends and technologies"
+  ],
+  "educational_requirements": [
+    "Bachelor's or higher degree in Computer Science, Software Engineering, or related field"
+  ],
+  "experience": [
+    "5+ years of professional experience in software development",
+    "Experience with one or more programming languages such as Java, Python, or JavaScript",
+    "Familiarity with software development tools and methodologies"
+  ],
+  "work_details": {
+    "schedule": "Full-time",
+    "location": "On-site"
+  },
+  "salary": "$100,000 - $120,000 per year"
+}
