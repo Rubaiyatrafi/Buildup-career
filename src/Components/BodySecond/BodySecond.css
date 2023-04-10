@@ -13,3 +13,8 @@
   font-size: 1.2em;
   font-weight: bolder;
 }
+.catagory-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}

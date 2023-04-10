@@ -1,6 +1,7 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 import "./BodySecond.css";
+import JobCatagory from "../JobCatagory/JobCatagory";
 
 const BodySecond = () => {
   const jobs = useLoaderData();
@@ -15,7 +16,11 @@ const BodySecond = () => {
           need. Its your future
         </p>
       </div>
-      <div></div>
+      <div className="catagory-list">
+        {jobs.map((job) => (
+          <JobCatagory key={job.id} job={job}></JobCatagory>
+        ))}
+      </div>
     </div>
   );
 };
