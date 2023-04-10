@@ -1,7 +1,26 @@
-{
-    "company": "Acme Inc.",
-    "logo": "https://example.com/images/logo.png",
-    "job_title": "Marketing Manager",
-    "job_description": "Acme Inc. is seeking a talented and motivated Marketing Manager to lead our marketing team. The Marketing Manager will be responsible for developing and executing marketing strategies to drive customer engagement, generate leads, and increase revenue. The ideal candidate will have experience in digital marketing, brand management, and team leadership."
+[
+  {
+    "id": "1",
+    "logo": "https://www.freepik.com/free-vector/creative-gradient-code-logo-template_11793531.htm#query=web%20development%20logo&position=5&from_view=keyword&track=ais",
+    "job_title": "Web Development",
+    "job_available": "5k+ Jobs Available"
+  },
+  {
+    "id": "2",
+    "logo": "https://www.freepik.com/free-vector/marketing-elements-background-flat-style_1819013.htm#query=Marketing%20amp%20Sells&position=11&from_view=search&track=ais",
+    "job_title": "Marketing & Sells",
+    "job_available": "1k+ Jobs Available"
+  },
+  {
+    "id": "3",
+    "logo": "https://www.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_10798281.htm#query=Software%20Designer&position=0&from_view=search&track=ais",
+    "job_title": "Software Designer",
+    "job_available": "2k+ Jobs Available"
+  },
+  {
+    "id": "4",
+    "logo": "https://www.freepik.com/free-vector/gradient-vpn-illustration_22111199.htm#query=VPS%20Provider&position=1&from_view=search&track=ais",
+    "job_title": "VPS Provider",
+    "job_available": "500 Jobs Available"
   }
-  
+]
