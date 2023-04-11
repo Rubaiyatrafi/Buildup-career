@@ -23,6 +23,9 @@ const BodyThird = () => {
           <Jobs key={jobs.id} jobs={jobs}></Jobs>
         ))}
       </div>
+      <div className="btn-alljobs">
+        <button className="btn">See All Jobs</button>
+      </div>
     </div>
   );
 };
