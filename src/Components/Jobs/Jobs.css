@@ -1,0 +1,63 @@
+.job-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 200px 25px 200px;
+  padding: 15px 50px 15px 0px;
+  background: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 3px rgb(230, 244, 248);
+  text-align: start;
+}
+.jobs-img {
+  height: 60px;
+  width: 100px;
+}
+.post-name {
+  color: #474747;
+  font-weight: 800;
+  font-size: 25px;
+}
+.com-name {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+}
+.work-container {
+  margin-top: 0;
+  display: flex;
+}
+.work-details {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 500;
+  color: #7e90fe;
+  border: 1px solid #7e90fe;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 80px;
+}
+.add-details {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 500;
+  margin-right: 50px;
+  color: #757575;
+}
+.location-img {
+  width: 20px;
+  height: 20px;
+}
+.btn-view {
+  width: 120px;
+  height: 40px;
+  background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}

@@ -18,3 +18,9 @@
   justify-content: space-around;
   margin-top: 50px;
 }
+@media screen and (max-width: 576px) {
+  .catagory-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
