@@ -5,7 +5,7 @@ import JobCatagory from "../JobCatagory/JobCatagory";
 
 const BodySecond = () => {
   const jobs = useLoaderData();
-  //   console.log(jobs);
+  // console.log(jobs);
   return (
     <div className="body2">
       {/* <h1>job details :{jobs.length}</h1> */}
@@ -18,6 +18,7 @@ const BodySecond = () => {
       </div>
       <div className="catagory-list">
         {jobs.map((job) => (
+          // console.log(job)
           <JobCatagory key={job.id} job={job}></JobCatagory>
         ))}
       </div>

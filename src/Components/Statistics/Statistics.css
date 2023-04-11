@@ -1,0 +1,12 @@
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+}
+.chart {
+  display: flex;
+  justify-content: center;
+}
+.chart-text {
+  margin-top: 50px;
+  color: #7e90fe;
+}

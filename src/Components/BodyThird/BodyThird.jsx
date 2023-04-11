@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Jobs from "../Jobs/Jobs";
 import "./BodyThird.css";
+import ReviewJobs from "../ReviewJobs/ReviewJobs";
 
 const BodyThird = () => {
   const [jobsList, setJobsList] = useState([]);
+
   useEffect(() => {
     fetch("fakeData.json")
       .then((res) => res.json())
@@ -20,9 +22,11 @@ const BodyThird = () => {
       </div>
       <div className="jobs-list">
         {jobsList.map((jobs) => (
+          // console.log(jobs)
           <Jobs key={jobs.id} jobs={jobs}></Jobs>
         ))}
       </div>
+
       <div className="btn-alljobs">
         <button className="btn">See All Jobs</button>
       </div>

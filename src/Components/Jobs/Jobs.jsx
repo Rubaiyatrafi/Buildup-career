@@ -2,6 +2,8 @@ import React from "react";
 import "./Jobs.css";
 import img1 from "../../../public/images/Frame-4.png";
 import img2 from "../../../public/images/Frame.png";
+import ReviewJobs from "../ReviewJobs/ReviewJobs";
+import { Link } from "react-router-dom";
 
 const Jobs = ({ jobs }) => {
   const {
@@ -38,7 +40,9 @@ const Jobs = ({ jobs }) => {
             <p className="add-details">{salary}</p>
           </div>
         </div>
-        <button className="btn-view">View Details</button>
+        <Link className="btn-review" to={`/review/${id}`}>
+          View Details{" "}
+        </Link>
       </div>
     </div>
   );

@@ -1,0 +1,19 @@
+.blog-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3em;
+  color: #7e90fe;
+}
+.blog-body {
+  margin-left: 30px;
+}
+.blog-q {
+  margin: 15px;
+  color: rgb(8, 139, 190);
+  font-size: 1.5em;
+}
+.blog-a {
+  margin: 5px;
+  color: #2e46e6;
+  font-size: 1em;
+}

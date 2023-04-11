@@ -52,12 +52,12 @@
   width: 20px;
   height: 20px;
 }
-.btn-view {
-  width: 120px;
-  height: 40px;
+.btn-review {
+  width: 200px;
   background: linear-gradient(90deg, #7e90fe 0%, #9873ff 100%);
-  border-radius: 8px;
+  border-radius: 6px;
   color: white;
   font-weight: bold;
   font-size: 0.8em;
+  padding: 5px;
 }
