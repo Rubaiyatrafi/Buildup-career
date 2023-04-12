@@ -5,7 +5,7 @@ import img2 from "../../../public/images/Frame.png";
 import ReviewJobs from "../ReviewJobs/ReviewJobs";
 import { Link } from "react-router-dom";
 
-const Jobs = ({ jobs }) => {
+const Jobs = ({ jobs, handlereview }) => {
   const {
     id,
     logo,
@@ -20,6 +20,7 @@ const Jobs = ({ jobs }) => {
     work_details,
     salary,
   } = jobs;
+
   return (
     <div className="job-container">
       <div>
@@ -40,7 +41,11 @@ const Jobs = ({ jobs }) => {
             <p className="add-details">{salary}</p>
           </div>
         </div>
-        <Link className="btn-review" to={`/review/${id}`}>
+        <Link
+          onClick={() => handlereview(id)}
+          className="btn-review"
+          to={`/review/${id}`}
+        >
           View Details{" "}
         </Link>
       </div>

@@ -10,6 +10,7 @@ import AppliedJobs from "./Components/AppliedJobs/AppliedJobs";
 import Blog from "./Components/Blog/Blog";
 import ReviewJobs from "./Components/ReviewJobs/ReviewJobs";
 import NotFound from "./Components/NotFound/NotFound";
+import jobData from "./Loader/getLoad";
 
 const router = createBrowserRouter([
   {
@@ -21,17 +22,17 @@ const router = createBrowserRouter([
         element: <Body></Body>,
         loader: () => fetch("/fakeData2.json"),
       },
-      {
-        path: "/review/:Id",
-        element: <ReviewJobs></ReviewJobs>,
-        loader: ({ params }) =>
-          fetch(`/http://127.0.0.1:5173/fakeData.json/${params.Id}`),
-      },
       // {
       //   path: "/review/:Id",
       //   element: <ReviewJobs></ReviewJobs>,
-      //   loader: ({ params }) => fetch(`/fakeData.json`),
+      //   loader: ({ params }) =>
+      //     fetch(`/http://127.0.0.1:5173/fakeData.json/${params.Id}`),
       // },
+      {
+        path: "/review/:Id",
+        element: <ReviewJobs></ReviewJobs>,
+        loader: jobData,
+      },
       {
         path: "/statistics",
         element: <Statistics></Statistics>,

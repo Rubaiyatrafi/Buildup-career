@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Jobs from "../Jobs/Jobs";
 import "./BodyThird.css";
 import ReviewJobs from "../ReviewJobs/ReviewJobs";
+import { addToDb } from "../../utilities/fakedb";
 
 const BodyThird = () => {
   const [jobsList, setJobsList] = useState([]);
@@ -11,6 +12,10 @@ const BodyThird = () => {
       .then((res) => res.json())
       .then((data) => setJobsList(data));
   }, []);
+  const handlereview = (id) => {
+    console.log(id);
+    addToDb(id);
+  };
   return (
     <div className="body2">
       <div className="bodyDetails">
@@ -23,7 +28,7 @@ const BodyThird = () => {
       <div className="jobs-list">
         {jobsList.map((jobs) => (
           // console.log(jobs)
-          <Jobs key={jobs.id} jobs={jobs}></Jobs>
+          <Jobs key={jobs.id} jobs={jobs} handlereview={handlereview}></Jobs>
         ))}
       </div>
 
